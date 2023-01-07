@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class ConversationController : MonoBehaviour
 {
     [Header("Conversation")]
-    public ConversationNode conversationNode;
+    public ConversationNode currentConversationNode;
+    private int currentConversationNodeIndex;
     public List<ConversationNode> conversationNodeList = new List<ConversationNode>();
     public TextMeshProUGUI conversationText;
     public GameObject[] answerButtons;
@@ -25,14 +26,16 @@ public class ConversationController : MonoBehaviour
     public Sprite neutralNarratorSprite;
 
     void Start() {
+        currentConversationNodeIndex = 0;
+        currentConversationNode = conversationNodeList[currentConversationNodeIndex];
         DisplayQuestion();
     }
 
     private void DisplayQuestion() {
-        conversationText.text = conversationNode.GetText();
-        ChangeButtonText(0, conversationNode.GetOption(0));
-        ChangeButtonText(1, conversationNode.GetOption(1));
-        ChangeButtonText(2, conversationNode.GetOption(2));
+        conversationText.text = currentConversationNode.GetText();
+        ChangeButtonText(0, currentConversationNode.GetOption(0));
+        ChangeButtonText(1, currentConversationNode.GetOption(1));
+        ChangeButtonText(2, currentConversationNode.GetOption(2));
     }
 
     private void ChangeButtonText(int buttonIndex, string text) {
@@ -41,14 +44,14 @@ public class ConversationController : MonoBehaviour
     }
 
     public void OnAnswerSelected(int choosenOption) {
-        if(conversationNode.IsPlantNameSet()) {
-          plantPoints[conversationNode.PlantNumber()] += conversationNode.GetPointsForOption(choosenOption);
-          SetCorrectSpriteForPoints(conversationNode.GetPointsForOption(choosenOption));
+        if(currentConversationNode.IsPlantNameSet()) {
+          plantPoints[currentConversationNode.PlantNumber()] += currentConversationNode.GetPointsForOption(choosenOption);
+          SetCorrectSpriteForPoints(currentConversationNode.GetPointsForOption(choosenOption));
         } else {
             characterImage.sprite = neutralNarratorSprite;
         }
-        if(conversationNode.ShowOptionForReply()) {
-            conversationText.text = conversationNode.GetReplyForOption(choosenOption);
+        if(currentConversationNode.ShowOptionForReply()) {
+            conversationText.text = currentConversationNode.GetReplyForOption(choosenOption);
         }
         SetButtonState(false);
         
@@ -57,7 +60,7 @@ public class ConversationController : MonoBehaviour
     }
 
     private void SetCorrectSpriteForPoints(int totalPoints) {
-        int plantIndex = conversationNode.PlantNumber() * 3;
+        int plantIndex = currentConversationNode.PlantNumber() * 3;
         if(totalPoints > 5) {
             int spriteIndex = plantIndex + 0; // Happy
             characterImage.sprite = sprites[spriteIndex];
@@ -80,8 +83,12 @@ public class ConversationController : MonoBehaviour
     }
 
     void Update() {
-        if(wasOptionSelected && Input.GetAxis("Submit") > 0) {
+        bool waitForSubmit = currentConversationNode.ShowOptionForReply();
+        bool showNextConversation = waitForSubmit ? (wasOptionSelected && Input.GetAxis("Submit") > 0) : wasOptionSelected;
+        if(showNextConversation) {
             wasOptionSelected = false;
+            currentConversationNodeIndex++;
+            currentConversationNode = conversationNodeList[currentConversationNodeIndex];
             GetNextQuestion();
         }
     }

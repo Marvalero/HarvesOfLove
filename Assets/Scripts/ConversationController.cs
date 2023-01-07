@@ -13,11 +13,12 @@ public class ConversationController : MonoBehaviour
     public TextMeshProUGUI conversationText;
     public GameObject[] answerButtons;
     private bool wasOptionSelected = false;
+    public bool conversationIsFinished;
 
 
     [Header("Plants")]
     public string[] plants = {"Bubbles", "Zen", "Ivy"};
-    public int[] plantPoints = {0, 0, 0};
+    public ScoreKeeper scoreKeeper;
 
     [Header("SpritesAndImage")]
     public Image characterImage;
@@ -26,6 +27,7 @@ public class ConversationController : MonoBehaviour
     public Sprite neutralNarratorSprite;
 
     void Start() {
+        scoreKeeper = FindObjectOfType<ScoreKeeper>();
         currentConversationNodeIndex = 0;
         currentConversationNode = conversationNodeList[currentConversationNodeIndex];
         DisplayQuestion();
@@ -40,13 +42,15 @@ public class ConversationController : MonoBehaviour
             if(currentConversationNodeIndex < conversationNodeList.Count) {
                 currentConversationNode = conversationNodeList[currentConversationNodeIndex];
                 GetNextQuestion();
+            } else {
+                conversationIsFinished = true;
             }
         }
     }
 
     public void OnAnswerSelected(int choosenOption) {
         if(currentConversationNode.IsPlantNameSet()) {
-          plantPoints[currentConversationNode.PlantNumber()] += currentConversationNode.GetPointsForOption(choosenOption);
+          scoreKeeper.AddScoreForPlant(currentConversationNode.PlantNumber(), currentConversationNode.GetPointsForOption(choosenOption));
           SetCorrectSpriteForPoints(currentConversationNode.GetPointsForOption(choosenOption));
         } else {
             characterImage.sprite = neutralNarratorSprite;

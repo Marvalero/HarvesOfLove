@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d7f93d26b4f4d179f6fc99245653fc, type: 3}
+  m_Name: StartNode2
+  m_EditorClassIdentifier: 
+  text: As a farmer, your family has given you three plants. You can attempt to harvest
+    their fruits before the end of the Harvest Season. Can you charm your way into
+    their hearts and win their consent before the season is over?
+  options:
+  - Of course!
+  - I'm in
+  - Let's do this!
+  replyForOptions:
+  - Oll right!
+  - Impresive
+  - Lets start!
+  showOptionForReply: 1
+  optionPoints: 000000000000000000000000
+  plantName: 
+  childNodes: []

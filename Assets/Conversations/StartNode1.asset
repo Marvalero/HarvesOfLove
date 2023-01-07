@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d7f93d26b4f4d179f6fc99245653fc, type: 3}
+  m_Name: StartNode1
+  m_EditorClassIdentifier: 
+  text: In 2050, thanks to advances in artificial intelligence, plants are now able
+    to express their emotions. In response to this groundbreaking development, pro-plants
+    politicians have passed a law requiring that the consent of a plant has to be
+    obtained before it is harvested.
+  options:
+  - Thats stupid
+  - Great!
+  - What?
+  replyForOptions:
+  - 
+  - 
+  - 
+  showOptionForReply: 0
+  optionPoints: 000000000000000000000000
+  plantName: 
+  childNodes: []

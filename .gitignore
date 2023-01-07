@@ -1,0 +1,38 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+
+# ===================================
+# Unity-specific files
+# ===================================
+
+# Exclude the Temp/ directory that is used to compile scripts
+Temp/
+
+# Exclude the Library/ directory that contains all of the compiled assets
+Library/
+
+# Exclude the obj/ directory that contains the compiled solution
+obj/
+
+# Exclude the Unity lockfile
+*.pidb.meta
+
+# Exclude the Visual Studio project files
+*.csproj
+*.unityproj
+
+# Exclude the Visual Studio solution file
+*.sln
+
+# Exclude the Visual Studio cache directory
+*.vs/
+.vscode/
+
+# ===================================
+# OS-specific files
+# ===================================
+
+# Exclude macOS specific files
+.DS_Store
+
+# Exclude Windows specific files
+Thumbs.db

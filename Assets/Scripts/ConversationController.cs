@@ -37,8 +37,10 @@ public class ConversationController : MonoBehaviour
         if(showNextConversation) {
             wasOptionSelected = false;
             currentConversationNodeIndex++;
-            currentConversationNode = conversationNodeList[currentConversationNodeIndex];
-            GetNextQuestion();
+            if(currentConversationNodeIndex < conversationNodeList.Count) {
+                currentConversationNode = conversationNodeList[currentConversationNodeIndex];
+                GetNextQuestion();
+            }
         }
     }
 

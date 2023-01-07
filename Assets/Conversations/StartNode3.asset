@@ -16,6 +16,12 @@ MonoBehaviour:
   options:
   - Hello
   - How are you?
-  optionPoints: 0000000001000000
+  - Nice to meet you
+  replyForOptions:
+  - Hello
+  - Good
+  - Nice to meet you too!
+  showOptionForReply: 1
+  optionPoints: 050000000a00000005000000
   plantName: Bubbles
   childNodes: []

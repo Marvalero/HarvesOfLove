@@ -31,16 +31,15 @@ public class ConversationController : MonoBehaviour
         DisplayQuestion();
     }
 
-    private void DisplayQuestion() {
-        conversationText.text = currentConversationNode.GetText();
-        ChangeButtonText(0, currentConversationNode.GetOption(0));
-        ChangeButtonText(1, currentConversationNode.GetOption(1));
-        ChangeButtonText(2, currentConversationNode.GetOption(2));
-    }
-
-    private void ChangeButtonText(int buttonIndex, string text) {
-        TextMeshProUGUI buttonText = answerButtons[buttonIndex].GetComponentInChildren<TextMeshProUGUI>();
-        buttonText.text = text;
+    void Update() {
+        bool waitForSubmit = currentConversationNode.ShowOptionForReply();
+        bool showNextConversation = waitForSubmit ? (wasOptionSelected && Input.GetAxis("Fire1") > 0) : wasOptionSelected;
+        if(showNextConversation) {
+            wasOptionSelected = false;
+            currentConversationNodeIndex++;
+            currentConversationNode = conversationNodeList[currentConversationNodeIndex];
+            GetNextQuestion();
+        }
     }
 
     public void OnAnswerSelected(int choosenOption) {
@@ -59,7 +58,23 @@ public class ConversationController : MonoBehaviour
         wasOptionSelected = true;
     }
 
+    private void DisplayQuestion() {
+        conversationText.text = currentConversationNode.GetText();
+        ChangeButtonText(0, currentConversationNode.GetOption(0));
+        ChangeButtonText(1, currentConversationNode.GetOption(1));
+        ChangeButtonText(2, currentConversationNode.GetOption(2));
+        SetCorrectSpriteForPoints(5);
+    }
+
+    private void ChangeButtonText(int buttonIndex, string text) {
+        TextMeshProUGUI buttonText = answerButtons[buttonIndex].GetComponentInChildren<TextMeshProUGUI>();
+        buttonText.text = text;
+    }
+
     private void SetCorrectSpriteForPoints(int totalPoints) {
+        if(!currentConversationNode.IsPlantNameSet()) {
+            return;
+        }
         int plantIndex = currentConversationNode.PlantNumber() * 3;
         if(totalPoints > 5) {
             int spriteIndex = plantIndex + 0; // Happy
@@ -79,17 +94,6 @@ public class ConversationController : MonoBehaviour
         for (int index = 0; index < answerButtons.Length; index++) {
             Button button = answerButtons[index].GetComponent<Button>();
             button.interactable = state;
-        }
-    }
-
-    void Update() {
-        bool waitForSubmit = currentConversationNode.ShowOptionForReply();
-        bool showNextConversation = waitForSubmit ? (wasOptionSelected && Input.GetAxis("Submit") > 0) : wasOptionSelected;
-        if(showNextConversation) {
-            wasOptionSelected = false;
-            currentConversationNodeIndex++;
-            currentConversationNode = conversationNodeList[currentConversationNodeIndex];
-            GetNextQuestion();
         }
     }
 

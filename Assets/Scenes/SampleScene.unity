@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b06956e08c724465bbc8e63c703bf8ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  conversationNode: {fileID: 11400000, guid: f1e06139dcb144636b2b0b004e379e28, type: 2}
+  currentConversationNode: {fileID: 0}
   conversationNodeList:
   - {fileID: 11400000, guid: f1e06139dcb144636b2b0b004e379e28, type: 2}
   - {fileID: 11400000, guid: fef63a4a3e82b4380b0438a71a62d5fd, type: 2}

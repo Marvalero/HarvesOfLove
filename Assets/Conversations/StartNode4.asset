@@ -16,6 +16,12 @@ MonoBehaviour:
   options:
   - Hi
   - Hello
-  optionPoints: 0100000000000000
+  - Good Morning
+  replyForOptions:
+  - Hi
+  - Hello
+  - Good Morning
+  showOptionForReply: 1
+  optionPoints: 00000000050000000a000000
   plantName: Zen
   childNodes: []

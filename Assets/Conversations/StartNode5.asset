@@ -16,6 +16,12 @@ MonoBehaviour:
   options:
   - How are you?
   - What's up?
-  optionPoints: 0000000001000000
+  - Hello
+  replyForOptions:
+  - I am hungry and angry
+  - Many things
+  - Hello
+  showOptionForReply: 1
+  optionPoints: 000000000a00000005000000
   plantName: Ivy
   childNodes: []

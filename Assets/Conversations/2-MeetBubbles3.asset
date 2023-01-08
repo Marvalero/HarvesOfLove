@@ -12,14 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24d7f93d26b4f4d179f6fc99245653fc, type: 3}
   m_Name: 2-MeetBubbles3
   m_EditorClassIdentifier: 
-  text: Despite their carefree and playful nature, you can also sense a deep appreciation
-    for the earth within Bubbles. They talk about the importance of taking care of
-    the planet and all its inhabitants, and how much they love being a part of the
-    cycle of life.
-  options: []
-  replyForOptions: []
-  allowReply: 0
-  showOptionForReply: 0
-  optionPoints: 
+  text: 'The thing is, I don''t have any thorns. I don''t want to harm anyone, but
+    it feels like everyone is expecting me to be able to defend myself. The bee always
+    makes fun of me because of it.
+
+'
+  options:
+  - You have no thorns? Maybe you still need to grow up?
+  - Maybe you can try talking to the bee and describing how you feel.
+  - You shouldn't let the bee's words bother you. You are beautiful and strong just
+    the way you are.
+  replyForOptions:
+  - "Well I am a full grown up plant now, that\u2019s why you\u2019re trying to harvest
+    me, isn\u2019t it?"
+  - I guess I could try talking to the bee. It might be hard. Maybe you can help
+    me prepare another time?
+  - "Thank you for saying that. Sometimes it\u2019s hard to remember it. But your
+    words really warm me up."
+  allowReply: 1
+  showOptionForReply: 1
+  optionPoints: 000000000a0000000a000000
   plantName: Bubbles
   childNodes: []

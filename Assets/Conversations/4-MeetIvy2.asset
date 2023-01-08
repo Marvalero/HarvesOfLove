@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d7f93d26b4f4d179f6fc99245653fc, type: 3}
+  m_Name: 4-MeetIvy2
+  m_EditorClassIdentifier: 
+  text: What are you looking? What do you want?
+  options:
+  - "I\u2019m sorry, I didn't mean to disturb you"
+  - I just wanted to introduce myself.
+  - "I don\u2019t owe you any kind of explanation"
+  replyForOptions:
+  - I don't like apologetic puppies! You either grow some guts and tell me what you
+    want or you better leave.
+  - And what makes you think I want to meet you? What do you have to offer me, uh?
+  - Oh, you want to play hard? I like that, but you should know... I bite.
+  allowReply: 1
+  showOptionForReply: 1
+  optionPoints: 000000000000000005000000
+  plantName: Ivy
+  childNodes: []

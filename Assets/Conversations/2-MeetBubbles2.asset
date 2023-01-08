@@ -12,17 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24d7f93d26b4f4d179f6fc99245653fc, type: 3}
   m_Name: 2-MeetBubbles2
   m_EditorClassIdentifier: 
-  text: 'You two keep talking a little bit about life outdoors.  As you continue
-    to chat with Bubbles, you can''t help but feel a sense of joy and positivity
-    emanating from them. They tell you about all the different ways they love to
-    play and have fun in the field, from chasing butterflies to playing hide and
-    seek with the other plants.
-
-'
-  options: []
-  replyForOptions: []
-  allowReply: 0
-  showOptionForReply: 0
-  optionPoints: 
+  text: My favorite place to play is around butterflies. Although sometimes a bee
+    comes along with them and tries to bully me. It's not very nice.
+  options:
+  - That's not cool. Bees should be kind to everyone
+  - Maybe you should just kill the bee.
+  - Bees are important pollinators. Maybe you can try to be friends with them.
+  replyForOptions:
+  - "You're right, all creatures deserve kindness. I do deserve kindness\u2026"
+  - "But that\u2019s just horrible! I know they are treating me poorly, but how can
+    you think such a thing? "
+  - I see what you mean. But it is hard when they are making me feel so insecure.
+  allowReply: 1
+  showOptionForReply: 1
+  optionPoints: 05000000000000000a000000
   plantName: Bubbles
   childNodes: []

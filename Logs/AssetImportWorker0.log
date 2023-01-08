@@ -4615,3 +4615,123 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 450.871596 seconds.
+  path: Assets/Conversations/1-MeetIvy1.asset
+  artifactKey: Guid(cf292889649844156a88d2632d16e670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/1-MeetIvy1.asset using Guid(cf292889649844156a88d2632d16e670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c75c4496b148c249763fd2acf30e17') in 0.029082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.046842 seconds.
+  path: Assets/Conversations/4-MeetIvy1.asset
+  artifactKey: Guid(cf292889649844156a88d2632d16e670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/4-MeetIvy1.asset using Guid(cf292889649844156a88d2632d16e670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a978801e0130f52afca7f5b5ce0dbf') in 0.003050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.037571 seconds.
+  path: Assets/Conversations/4-MeetIvy2.asset
+  artifactKey: Guid(336317f8455f2486a9bc9dcdec08227a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/4-MeetIvy2.asset using Guid(336317f8455f2486a9bc9dcdec08227a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d104416ac8b89d49dc38ac4aec4f5b') in 0.003059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1027.540585 seconds.
+  path: Assets/Conversations/4-MeetIvy3.asset
+  artifactKey: Guid(196587da26d224f1dae5e2ca30099d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/4-MeetIvy3.asset using Guid(196587da26d224f1dae5e2ca30099d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59738302bfb3bbb12d31b2587d7ecb3') in 0.002959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.324673 seconds.
+  path: Assets/Conversations/5-MeetIvy4.asset
+  artifactKey: Guid(2fb28dc7c04fd4c32a34591b63bc36a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/5-MeetIvy4.asset using Guid(2fb28dc7c04fd4c32a34591b63bc36a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01787b948e0541cd5841a968506dff73') in 0.002790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 880.748725 seconds.
+  path: Assets/Conversations/2-MeetBubbles3.asset
+  artifactKey: Guid(520afce0a401549c7ad1935f8715f3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/2-MeetBubbles3.asset using Guid(520afce0a401549c7ad1935f8715f3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd841fe69ef975f92fc29d8daad28551') in 0.002129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000744 seconds.
+  path: Assets/Conversations/2-MeetBubbles1.asset
+  artifactKey: Guid(47a53ddebd54040879cb96951772f0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/2-MeetBubbles1.asset using Guid(47a53ddebd54040879cb96951772f0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f43111a6659408471feabb6d4a43c5') in 0.002443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004867 seconds.
+  path: Assets/Conversations/4-MeetIvy2.asset
+  artifactKey: Guid(336317f8455f2486a9bc9dcdec08227a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/4-MeetIvy2.asset using Guid(336317f8455f2486a9bc9dcdec08227a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ed31490e938ecf9071061765ebad79') in 0.002816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Conversations/5-MeetIvy4.asset
+  artifactKey: Guid(2fb28dc7c04fd4c32a34591b63bc36a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/5-MeetIvy4.asset using Guid(2fb28dc7c04fd4c32a34591b63bc36a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68970a6aff6462022b32de359d2506b1') in 0.003073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Conversations/4-MeetIvy3.asset
+  artifactKey: Guid(196587da26d224f1dae5e2ca30099d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/4-MeetIvy3.asset using Guid(196587da26d224f1dae5e2ca30099d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89295b9469ff80a164f6a85a551aa676') in 0.003134 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005578 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mariavalerocampana/workspace/unity/Harvest of Love/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mariavalerocampana/workspace/unity/Harvest of Love/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1454ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (1135ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (536ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (178.1 KB). Loaded Objects now: 4783.
+Memory consumption went from 313.7 MB to 313.5 MB.
+Total: 5.411253 ms (FindLiveObjects: 0.459970 ms CreateObjectMapping: 0.417347 ms MarkObjects: 4.229532 ms  DeleteObjects: 0.284371 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

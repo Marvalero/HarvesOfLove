@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d7f93d26b4f4d179f6fc99245653fc, type: 3}
+  m_Name: 5-MeetIvy4
+  m_EditorClassIdentifier: 
+  text: Oh, don't you dare to be so coy. I can sense you've noticed I'm a beautiful
+    and powerful plant, after all. It's only natural that you would want to be close
+    to all this danger
+  options:
+  - '*glup*'
+  - I, uh, I guess you're right. You are a very beautiful plant. But I don't want
+    to make you angry or anything.
+  - "I\u2019m not coy, i\u2019m just overwhelmed by everything I\u2019m seeing"
+  replyForOptions:
+  - "Come on, stop being so shy. It\u2019s no fun\u2026 I\u2019m Ivy. And I swear
+    if you keep boring me like that\u2026 it won\u2019t end well for you"
+  - Angry? Ha! I like a little bit of a challenge. But be warned, I'm not one to
+    be trifled with. You can call me Ivy.
+  - Oh, flattering. I'm Ivy, and I do like a little bit of kiss-ass but I warn you,
+    that gets old soon and you don't want to see me bored.
+  allowReply: 1
+  showOptionForReply: 1
+  optionPoints: 000000000500000005000000
+  plantName: Ivy
+  childNodes: []

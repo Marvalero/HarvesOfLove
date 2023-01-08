@@ -19,9 +19,8 @@ MonoBehaviour:
 '
   options:
   - You have no thorns? Maybe you still need to grow up?
-  - Maybe you can try talking to the bee and describing how you feel.
-  - You shouldn't let the bee's words bother you. You are beautiful and strong just
-    the way you are.
+  - Maybe you can tell the bee how you feel
+  - You are beautiful and strong just the way you are.
   replyForOptions:
   - "Well I am a full grown up plant now, that\u2019s why you\u2019re trying to harvest
     me, isn\u2019t it?"

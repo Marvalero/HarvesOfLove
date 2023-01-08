@@ -10,16 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24d7f93d26b4f4d179f6fc99245653fc, type: 3}
-  m_Name: 4-MeetIvy1
+  m_Name: 7-EndOfGame
   m_EditorClassIdentifier: 
-  text: "While you think of going to visit the last plant you noticed one that\u2019s
-    like any you had seen before. They were a stunningly beautiful plant but there
-    was something about them that also seemed dangerous and aggressive. As you approached
-    her you couldn't help but feel a bit intimidated."
-  options: []
-  replyForOptions: []
+  text: Some days passed, and finally the last day of harvest arrived. Here are the
+    results of your harvest season
+  options:
+  - 
+  - 
+  - 
+  replyForOptions:
+  - 
+  - 
+  - 
   allowReply: 0
   showOptionForReply: 0
-  optionPoints: 
+  optionPoints: 000000000000000000000000
   plantName: 
   childNodes: []

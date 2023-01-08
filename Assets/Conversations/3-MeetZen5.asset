@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d7f93d26b4f4d179f6fc99245653fc, type: 3}
+  m_Name: 3-MeetZen5
+  m_EditorClassIdentifier: 
+  text: What do you think about my comedy? I saw it brought a little smile to your
+    face.
+  options:
+  - I am disgusted by your joke, it seemed plant-phobic
+  - It was okay, but I've heard funnier plant jokes
+  - I'm not really a fan of plant jokes. But I liked the punchline
+  replyForOptions:
+  - "Oh dear, I didn\u2019t mean to be rude. Maybe you can help me improve my comedy
+    next time."
+  - Oh, I see. Well, everyone has different tastes in humor. Maybe you can help me
+    improve my comedy next time.
+  - I understand, not everyone enjoys plant-themed jokes. Maybe you can help me improve
+    my comedy next time.
+  allowReply: 1
+  showOptionForReply: 1
+  optionPoints: 000000000500000005000000
+  plantName: Zen
+  childNodes: []

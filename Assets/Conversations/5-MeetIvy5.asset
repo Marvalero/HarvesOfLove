@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d7f93d26b4f4d179f6fc99245653fc, type: 3}
+  m_Name: 5-MeetIvy5
+  m_EditorClassIdentifier: 
+  text: Now tell me, why are you here? You seem different from the other humans who
+    dare to come near me. You have a certain curiosity and determination in your
+    eyes. Perhaps you're not as boring as the rest.
+  options:
+  - For now I just want to meet you
+  - "I\u2019m here to take your fruits!"
+  - "I\u2019m learning how to be a harvester."
+  replyForOptions:
+  - 'Wouldn''t you like to get me to believe all this crop! It''s vague and suspicious,
+    and I''m not an idiot. You better run before I get hungry because right now you
+    look like a delicious improvement compared to the flies I usually eat. '
+  - Brutal unwanted honesty, my favorite! Maybe if you promise to enjoy a delicious
+    cocktail with my fruits I will let you take them. I may even let you take more
+    than that.
+  - And you want me to learn how to be a docile and chill plant? I appreciate the
+    honesty. But I have to tell you, if you want to be the harvester of a plant like
+    me you better work.
+  allowReply: 1
+  showOptionForReply: 1
+  optionPoints: 000000000a00000005000000
+  plantName: Ivy
+  childNodes: []

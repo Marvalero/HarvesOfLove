@@ -393,10 +393,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 56bf6c61a95a24ada9ab176ffaba4688, type: 2}
   - {fileID: 11400000, guid: f504fdfbd66e940fdb903d38942e09bf, type: 2}
   - {fileID: 11400000, guid: d3f8a102a94354fc18e455582f2fd2d7, type: 2}
+  - {fileID: 11400000, guid: 10d6c6e37312249c58e645d1b7546e47, type: 2}
+  - {fileID: 11400000, guid: 6e237b93ac46043fba030b47fd735780, type: 2}
   - {fileID: 11400000, guid: cf292889649844156a88d2632d16e670, type: 2}
+  - {fileID: 11400000, guid: 336317f8455f2486a9bc9dcdec08227a, type: 2}
   - {fileID: 11400000, guid: 336317f8455f2486a9bc9dcdec08227a, type: 2}
   - {fileID: 11400000, guid: 196587da26d224f1dae5e2ca30099d78, type: 2}
   - {fileID: 11400000, guid: 2fb28dc7c04fd4c32a34591b63bc36a2, type: 2}
+  - {fileID: 11400000, guid: 2311998670f2e4163b89b9d726cb5344, type: 2}
+  - {fileID: 11400000, guid: e4379cacd69d14048a90a443c78d717c, type: 2}
+  - {fileID: 11400000, guid: 6e661cc621abd48a4b6574d8b7a3cd0e, type: 2}
   conversationText: {fileID: 467886838}
   answerButtons:
   - {fileID: 2135361402}
@@ -1128,7 +1134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalResultText: {fileID: 350137656}
-  minimumScoreForHarvest: 9
+  minimumScoreForHarvest: 14
 --- !u!1 &622491334
 GameObject:
   m_ObjectHideFlags: 0

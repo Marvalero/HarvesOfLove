@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24d7f93d26b4f4d179f6fc99245653fc, type: 3}
   m_Name: 3-MeetZen4
   m_EditorClassIdentifier: 
-  text: You could have easily spent all day with them, but eventually it was time
-    for you to go back home. You said goodbye to Zen and promised to come visit them
-    again soon. As you left the garden, you couldn't help but feel grateful for the
-    chance to have met such a special plant.
-  options: []
-  replyForOptions: []
-  allowReply: 0
-  showOptionForReply: 0
-  optionPoints: 
-  plantName: 
+  text: "It\u2019s Leaf"
+  options:
+  - Leaf who?
+  - Leaf what?
+  - Leaf?
+  replyForOptions:
+  - Leaf me alone, I need to water! hahaha oh my
+  - Leaf me alone, I need to water! hahaha oh my
+  - Leaf me alone, I need to water! hahaha oh my
+  allowReply: 1
+  showOptionForReply: 1
+  optionPoints: 0a0000000a0000000a000000
+  plantName: Zen
   childNodes: []

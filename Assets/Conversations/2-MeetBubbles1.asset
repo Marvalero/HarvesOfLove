@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d7f93d26b4f4d179f6fc99245653fc, type: 3}
+  m_Name: 2-MeetBubbles1
+  m_EditorClassIdentifier: 
+  text: Hi there! I'm so excited to meet you! My name is Bubbles. I love to soak
+    up the sun and dance in the breeze. What about you? Do you enjoy the breeze too?
+  options:
+  - "I\u2019m more an indoors type of person"
+  - Sure, specially in sunny days!
+  - Not really, it messes my hair
+  replyForOptions:
+  - I can understand why you might prefer indoor life, but for me, there's nothing
+    quite like being out in nature. The outdoors is where I truly thrive and feel
+    alive. Plus, there's always something new and beautiful to discover outside.
+  - Absolutely! Being outdoors has so many benefits for our physical and mental health.
+    It's a great way to connect with nature and find peace. Do you have a favorite
+    outdoor spot that you like to visit? I love any place with a bit of green space.
+  - "Oh\u2026 I see. Well, I don't have hair to worry about, so I don't have to worry
+    about that. I do understand that hair can be an important part of how we present
+    ourselves to the world, but I think the benefits of being outdoors far outweigh
+    any potential hair concerns. There's just something so invigorating about being
+    out in nature."
+  allowReply: 1
+  showOptionForReply: 1
+  optionPoints: 050000000a00000000000000
+  plantName: Bubbles
+  childNodes: []

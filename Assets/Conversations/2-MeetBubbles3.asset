@@ -10,18 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24d7f93d26b4f4d179f6fc99245653fc, type: 3}
-  m_Name: StartNode3
+  m_Name: 2-MeetBubbles3
   m_EditorClassIdentifier: 
-  text: Conversation with Bubbles
-  options:
-  - Hello
-  - How are you?
-  - Nice to meet you
-  replyForOptions:
-  - Hello
-  - Good
-  - Nice to meet you too!
-  showOptionForReply: 1
-  optionPoints: 050000000a00000005000000
+  text: Despite their carefree and playful nature, you can also sense a deep appreciation
+    for the earth within Bubbles. They talk about the importance of taking care of
+    the planet and all its inhabitants, and how much they love being a part of the
+    cycle of life.
+  options: []
+  replyForOptions: []
+  allowReply: 0
+  showOptionForReply: 0
+  optionPoints: 
   plantName: Bubbles
   childNodes: []

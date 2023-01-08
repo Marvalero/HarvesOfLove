@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d7f93d26b4f4d179f6fc99245653fc, type: 3}
+  m_Name: 3-MeetZen2
+  m_EditorClassIdentifier: 
+  text: Greetings, I am Zen. I find that meditating helps me to connect with the
+    natural world and find a sense of inner peace. It's a way for me to recharge
+    and focus my energy. What about you, do you have any practices that help you
+    to find balance and clarity?
+  options:
+  - I do enjoy to read
+  - I find peace in beer
+  - I like to play videogames
+  replyForOptions:
+  - I absolutely love reading! It's a way for me to learn, expand my mind, and explore
+    different perspectives. It's also a great way to relax and unwind. Reading just
+    stimulates my mind and nourishes my soul.
+  - "Well\u2026 I guess you know that alcohol can seriously damage your physical
+    and mental health? It's important to be mindful of how much you're drinking and
+    the impact it may have on your overall health and well-being. Alcohol only brings
+    the illusion of clarity."
+  - I see. Videogames can definitely be appreciated as works of art. Like any form
+    of art, they can be used to tell stories, express emotions, and communicate ideas. 
+    I understand why so many people enjoy them.
+  allowReply: 1
+  showOptionForReply: 1
+  optionPoints: 0a0000000000000005000000
+  plantName: Zen
+  childNodes: []

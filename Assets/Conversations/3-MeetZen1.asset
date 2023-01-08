@@ -10,16 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24d7f93d26b4f4d179f6fc99245653fc, type: 3}
-  m_Name: StartNode1
+  m_Name: 3-MeetZen1
   m_EditorClassIdentifier: 
-  text: In 2050, thanks to advances in artificial intelligence, plants are now able
-    to express their emotions. In response to this groundbreaking development, pro-plants
-    politicians have passed a law requiring that the consent of a plant has to be
-    obtained before it is harvested.
+  text: As you approached the field, you noticed a small plant off to the side, surrounded
+    by a circle of stones. It seemed to be in a state of deep meditation, its leaves
+    gently swaying in the breeze. Intrigued, you approached the plant, their leaves
+    were a vibrant shade of green, and it seemed to be radiating a sense of calm
+    and wisdom. To your surprise, the plant suddenly opened their eyes and looked
+    at you
   options: []
   replyForOptions: []
   allowReply: 0
   showOptionForReply: 0
   optionPoints: 
-  plantName: 
+  plantName: Zen
   childNodes: []

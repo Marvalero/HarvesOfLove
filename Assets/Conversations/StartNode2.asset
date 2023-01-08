@@ -20,9 +20,10 @@ MonoBehaviour:
   - I'm in
   - Let's do this!
   replyForOptions:
-  - Oll right!
-  - Impresive
-  - Lets start!
+  - Let me introduce you to Bubbles, Zen and Ivy
+  - Let me introduce you to Bubbles, Zen and Ivy
+  - Let me introduce you to Bubbles, Zen and Ivy
+  allowReply: 1
   showOptionForReply: 1
   optionPoints: 000000000000000000000000
   plantName: 

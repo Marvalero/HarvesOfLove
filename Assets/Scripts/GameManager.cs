@@ -9,12 +9,15 @@ public class GameManager : MonoBehaviour
     EndGameController endGameController;
     MainMenuController mainMenuController;
     CreditsController creditsController;
+    InteractionsController interactionsController;
+
 
     private void Awake() {
         conversationController = FindObjectOfType<ConversationController>();
         endGameController = FindObjectOfType<EndGameController>();        
         mainMenuController = FindObjectOfType<MainMenuController>();        
         creditsController = FindObjectOfType<CreditsController>();        
+        interactionsController = FindObjectOfType<InteractionsController>();  
     }
     void Start()
     {
@@ -34,6 +37,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void OnStartGame() {
+        interactionsController.WasNextPressedThisFrame();
         OnlySetActive(conversationController);
     }
 

@@ -9,6 +9,7 @@ public class ConversationNode : ScriptableObject
     public string text = "Lore ipsum";
     public string[] options = new string[3];
     public string[] replyForOptions = new string[3];
+    public bool allowReply = true;
     public bool showOptionForReply = true;
     public int[] optionPoints = new int[3];
     public string plantName = null;
@@ -17,14 +18,8 @@ public class ConversationNode : ScriptableObject
     public string GetText() {
         return text;
     }
-    public bool ShowOptionForReply() {
-        return showOptionForReply;
-    }
     public string GetOption(int index) {
         return options[index];
-    }
-    public int GetPointsForOption(int index) {
-        return optionPoints[index];
     }
     public string GetReplyForOption(int index) {
         return replyForOptions[index];
@@ -32,8 +27,9 @@ public class ConversationNode : ScriptableObject
     public string GetPlantName() {
         return plantName;
     }
-    public bool IsPlantNameSet() {
-        return (plantName == "Bubbles" || plantName == "Zen" || plantName == "Ivy");
+
+    public int GetPointsForOption(int index) {
+        return optionPoints[index];
     }
     public int PlantNumber() {
         if(plantName == "Bubbles") {
@@ -46,5 +42,19 @@ public class ConversationNode : ScriptableObject
             return 2;
         }
         return 0;
+    }
+
+
+    public bool WaitForNextInteraction() {
+        return !allowReply || showOptionForReply;
+    }
+    public bool ShowOptionForReply() {
+        return showOptionForReply;
+    }
+    public bool IsReplyAllowed() {
+        return allowReply;
+    }
+    public bool IsPlantNameSet() {
+        return (plantName == "Bubbles" || plantName == "Zen" || plantName == "Ivy");
     }
 }

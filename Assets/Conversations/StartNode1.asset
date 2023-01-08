@@ -16,15 +16,10 @@ MonoBehaviour:
     to express their emotions. In response to this groundbreaking development, pro-plants
     politicians have passed a law requiring that the consent of a plant has to be
     obtained before it is harvested.
-  options:
-  - Thats stupid
-  - Great!
-  - What?
-  replyForOptions:
-  - 
-  - 
-  - 
+  options: []
+  replyForOptions: []
+  allowReply: 0
   showOptionForReply: 0
-  optionPoints: 000000000000000000000000
+  optionPoints: 
   plantName: 
   childNodes: []

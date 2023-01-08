@@ -15,7 +15,6 @@ public class ConversationController : MonoBehaviour
     private bool wasOptionSelected = false;
     public bool conversationIsFinished;
 
-
     [Header("Plants")]
     public string[] plants = {"Bubbles", "Zen", "Ivy"};
     public ScoreKeeper scoreKeeper;
@@ -26,6 +25,12 @@ public class ConversationController : MonoBehaviour
     public Sprite[] sprites = new Sprite[9];
     public Sprite neutralNarratorSprite;
 
+    InteractionsController interactionsController;
+
+    private void Awake() {
+        interactionsController = FindObjectOfType<InteractionsController>();  
+    }
+
     void Start() {
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
         currentConversationNodeIndex = 0;
@@ -34,8 +39,8 @@ public class ConversationController : MonoBehaviour
     }
 
     void Update() {
-        bool waitForSubmit = currentConversationNode.ShowOptionForReply();
-        bool showNextConversation = waitForSubmit ? (wasOptionSelected && Input.GetAxis("Fire1") > 0) : wasOptionSelected;
+        bool waitForIteration = currentConversationNode.WaitForNextInteraction();
+        bool showNextConversation = waitForIteration ? (wasOptionSelected && interactionsController.WasNextPressedThisFrame()) : wasOptionSelected;
         if(showNextConversation) {
             wasOptionSelected = false;
             currentConversationNodeIndex++;
@@ -66,9 +71,14 @@ public class ConversationController : MonoBehaviour
 
     private void DisplayQuestion() {
         conversationText.text = currentConversationNode.GetText();
-        ChangeButtonText(0, currentConversationNode.GetOption(0));
-        ChangeButtonText(1, currentConversationNode.GetOption(1));
-        ChangeButtonText(2, currentConversationNode.GetOption(2));
+        if(currentConversationNode.IsReplyAllowed()) {
+            ChangeButtonText(0, currentConversationNode.GetOption(0));
+            ChangeButtonText(1, currentConversationNode.GetOption(1));
+            ChangeButtonText(2, currentConversationNode.GetOption(2));
+        } else {
+            SetButtonState(false);
+            wasOptionSelected = true;
+        }
         SetCorrectSpriteForPoints(5);
     }
 

@@ -8,25 +8,23 @@ public class GameManager : MonoBehaviour
     ConversationController conversationController;
     EndGameController endGameController;
     MainMenuController mainMenuController;
+    CreditsController creditsController;
 
     private void Awake() {
         conversationController = FindObjectOfType<ConversationController>();
         endGameController = FindObjectOfType<EndGameController>();        
         mainMenuController = FindObjectOfType<MainMenuController>();        
+        creditsController = FindObjectOfType<CreditsController>();        
     }
     void Start()
     {
-        conversationController.gameObject.SetActive(false);
-        endGameController.gameObject.SetActive(false);
-        mainMenuController.gameObject.SetActive(true);
+        OnlySetActive(mainMenuController);
     }
 
     void Update()
     {
         if(conversationController.conversationIsFinished) {
-            mainMenuController.gameObject.SetActive(false);
-            conversationController.gameObject.SetActive(false);
-            endGameController.gameObject.SetActive(true);
+            OnlySetActive(endGameController);
             endGameController.ShowFinalScoreText();
         }
     }
@@ -36,8 +34,19 @@ public class GameManager : MonoBehaviour
     }
 
     public void OnStartGame() {
-        conversationController.gameObject.SetActive(true);
+        OnlySetActive(conversationController);
+    }
+
+    public void OnViewCredits() {
+        OnlySetActive(creditsController);
+    }
+
+    public void OnlySetActive(MonoBehaviour controller) {
+        conversationController.gameObject.SetActive(false);
         endGameController.gameObject.SetActive(false);
         mainMenuController.gameObject.SetActive(false);
+        creditsController.gameObject.SetActive(false);
+
+        controller.gameObject.SetActive(true);
     }
 }

@@ -931,3 +931,6 @@ Received Import Request.
   path: Assets/Conversations/2-MeetBubbles3.asset
   artifactKey: Guid(520afce0a401549c7ad1935f8715f3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Conversations/2-MeetBubbles3.asset using Guid(520afce0a401549c7ad1935f8715f3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26edb4ec7013ad8f25fda68ceae366a0') in 0.004911 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

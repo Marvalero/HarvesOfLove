@@ -415,7 +415,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 425f48fa85bdd4c75b6c3cb173688f94, type: 3}
   - {fileID: 21300000, guid: 141e0bc3fb49f4cdf8ec8ae2226cc97c, type: 3}
   - {fileID: 21300000, guid: b1a001db37a6249afad721dc2cac40a8, type: 3}
-  neutralNarratorSprite: {fileID: 21300000, guid: 100051cb0437e4bb79a971ba8c480b99, type: 3}
+  neutralNarratorSprite: {fileID: 21300000, guid: cb51ec07ae7f9438fbb2077a0a682ca0, type: 3}
 --- !u!82 &277232125
 AudioSource:
   m_ObjectHideFlags: 0
@@ -426,11 +426,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4509bcc5db4634bd092524ba0875856c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6f61ec39a500344b488a9540924e2c6c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.05
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1183,7 +1183,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: da9271f1eb01e48cb8ec0a9a851f7aa0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 79f16ff2f0c2b4ac2ad4d1cd254ac7a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2027,7 +2027,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Game Design By:
+  m_text: 'Game Designes:
 
     Maria Valero
 
@@ -2037,8 +2037,8 @@ MonoBehaviour:
 
 
 
-    Head
-    of Programming
+    Game
+    Programer:
 
     Maria Valero
 
@@ -2051,14 +2051,27 @@ MonoBehaviour:
     Valero
 
 
+    Images Designer:
+
+    Alodia Rueda
+
+
+    Music Designers:
+
+    Flors
+    Rueda
+
+    Maria Valero
+
+
     Special Thanks to:
 
     OpenAI - DALLE-2
 
-    OpenAI - ChatGPT
+    OpenAI
+    - ChatGPT
 
-    Udemy
-    Course - Complete C# Unity Game Developer 2D
+    Udemy Course - Complete C# Unity Game Developer 2D
 
 '
   m_isRightToLeft: 0
@@ -2468,9 +2481,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 354d4e6d5b3304b75a3e9bb996b03b02, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2683,9 +2696,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4509bcc5db4634bd092524ba0875856c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3576,7 +3589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 100051cb0437e4bb79a971ba8c480b99, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb51ec07ae7f9438fbb2077a0a682ca0, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

@@ -110,6 +110,8 @@ public class ConversationController : MonoBehaviour
         for (int index = 0; index < answerButtons.Length; index++) {
             Button button = answerButtons[index].GetComponent<Button>();
             button.interactable = state;
+            TextMeshProUGUI buttonText = answerButtons[index].GetComponentInChildren<TextMeshProUGUI>();
+            buttonText.text = "";
         }
     }
 

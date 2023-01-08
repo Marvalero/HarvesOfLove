@@ -399,16 +399,16 @@ MonoBehaviour:
   scoreKeeper: {fileID: 0}
   characterImage: {fileID: 2092738367}
   sprites:
-  - {fileID: 21300000, guid: a74e96442099845219c7efafccf74c2d, type: 3}
-  - {fileID: 21300000, guid: 0ac8d3c5499a3487695a6f1927e794ea, type: 3}
-  - {fileID: 21300000, guid: 0e7d79bd332dc49f095c703e4554473b, type: 3}
-  - {fileID: 21300000, guid: fc8a0fc04e8b04e37990f25a6159869d, type: 3}
-  - {fileID: 21300000, guid: 11f2d202ce6214879bed8c2d6a3ad47c, type: 3}
-  - {fileID: 21300000, guid: 329b174628e0a4e49a28f7d130e237be, type: 3}
-  - {fileID: 21300000, guid: 0ac34a9de795d422ba147cf88052ba3d, type: 3}
-  - {fileID: 21300000, guid: 09f8a0c9155a04cd68fbd2dc6c2f6a14, type: 3}
-  - {fileID: 21300000, guid: 43076d143955e48e5a88a087909863a8, type: 3}
-  neutralNarratorSprite: {fileID: 21300000, guid: 313cc8c7dac0b44abadf98c71cabf18a, type: 3}
+  - {fileID: 21300000, guid: 3d4f2f56253ca44b599ce89fa9027330, type: 3}
+  - {fileID: 21300000, guid: 91deb113504094d49a06ead096e86ced, type: 3}
+  - {fileID: 21300000, guid: 7b29f662c629647f1ac407d96533dfe2, type: 3}
+  - {fileID: 21300000, guid: abfc6f4fc97824833940cad5f63a8e79, type: 3}
+  - {fileID: 21300000, guid: 0107f41fc05b44d599d3d8eecd97cf12, type: 3}
+  - {fileID: 21300000, guid: ca1fdb70a42ae4a0aac402c3de8ab015, type: 3}
+  - {fileID: 21300000, guid: 425f48fa85bdd4c75b6c3cb173688f94, type: 3}
+  - {fileID: 21300000, guid: 141e0bc3fb49f4cdf8ec8ae2226cc97c, type: 3}
+  - {fileID: 21300000, guid: b1a001db37a6249afad721dc2cac40a8, type: 3}
+  neutralNarratorSprite: {fileID: 21300000, guid: 100051cb0437e4bb79a971ba8c480b99, type: 3}
 --- !u!1 &350137654
 GameObject:
   m_ObjectHideFlags: 0
@@ -3376,7 +3376,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 313cc8c7dac0b44abadf98c71cabf18a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 100051cb0437e4bb79a971ba8c480b99, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

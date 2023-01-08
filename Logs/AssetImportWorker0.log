@@ -3238,3 +3238,417 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 967.689044 seconds.
+  path: Assets/Art/old-Bubbles-neutral.png
+  artifactKey: Guid(0ac8d3c5499a3487695a6f1927e794ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/old-Bubbles-neutral.png using Guid(0ac8d3c5499a3487695a6f1927e794ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f049cab89c183e206778ddd8ddff6901') in 0.175478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.418085 seconds.
+  path: Assets/Art/DALL_E_2023-01-07_09.49.12_-_A_draw_for_kids_of_a_beautiful_romantic_carnivorous_plant_that.png
+  artifactKey: Guid(91deb113504094d49a06ead096e86ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/DALL_E_2023-01-07_09.49.12_-_A_draw_for_kids_of_a_beautiful_romantic_carnivorous_plant_that.png using Guid(91deb113504094d49a06ead096e86ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38c42b8ba08c06e94067deeafa41f17') in 0.026997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.443012 seconds.
+  path: Assets/Art/Bubbles-Neutral.png
+  artifactKey: Guid(91deb113504094d49a06ead096e86ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Bubbles-Neutral.png using Guid(91deb113504094d49a06ead096e86ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaca58656012e68a6c822703c2b4dc5') in 0.025919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.766299 seconds.
+  path: Assets/Art/Screenshot_2023-01-07_at_17.07.42.png
+  artifactKey: Guid(3d4f2f56253ca44b599ce89fa9027330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Screenshot_2023-01-07_at_17.07.42.png using Guid(3d4f2f56253ca44b599ce89fa9027330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7ab5ef9cce82359db55d92f517d467') in 0.045348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.109372 seconds.
+  path: Assets/Art/old-Bubbles-happy.png
+  artifactKey: Guid(a74e96442099845219c7efafccf74c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/old-Bubbles-happy.png using Guid(a74e96442099845219c7efafccf74c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f351c36ba3a79bc0327037f950143f') in 0.099069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.960214 seconds.
+  path: Assets/Art/Bubbles-Happy.png
+  artifactKey: Guid(3d4f2f56253ca44b599ce89fa9027330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Bubbles-Happy.png using Guid(3d4f2f56253ca44b599ce89fa9027330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b8d7fcb4edf04903d5ce2474d83201') in 0.030346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.418871 seconds.
+  path: Assets/Art/old-Bubbles-angry.png
+  artifactKey: Guid(0e7d79bd332dc49f095c703e4554473b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/old-Bubbles-angry.png using Guid(0e7d79bd332dc49f095c703e4554473b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef67946eed8b1df35a169aa4853e9cfd') in 0.266286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.275105 seconds.
+  path: Assets/Art/Screenshot_2023-01-07_at_17.14.12.png
+  artifactKey: Guid(7b29f662c629647f1ac407d96533dfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Screenshot_2023-01-07_at_17.14.12.png using Guid(7b29f662c629647f1ac407d96533dfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cc82359845072099707545256e8abe') in 0.031705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.305016 seconds.
+  path: Assets/Art/Bubbles-Angry.png
+  artifactKey: Guid(7b29f662c629647f1ac407d96533dfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Bubbles-Angry.png using Guid(7b29f662c629647f1ac407d96533dfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b17c2b7bf7947ffcb906c1ce20cb41d') in 0.032822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.386563 seconds.
+  path: Assets/Art/old-Narrator-neutral.png
+  artifactKey: Guid(313cc8c7dac0b44abadf98c71cabf18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/old-Narrator-neutral.png using Guid(313cc8c7dac0b44abadf98c71cabf18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8baa9a8f0a6202ee4065f6d4dd0f77') in 0.074794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.995044 seconds.
+  path: Assets/Art/Screenshot_2023-01-07_at_17.17.41 (1).png
+  artifactKey: Guid(100051cb0437e4bb79a971ba8c480b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Screenshot_2023-01-07_at_17.17.41 (1).png using Guid(100051cb0437e4bb79a971ba8c480b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de51b5f7d138a579bb087435391a543') in 0.026602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.874285 seconds.
+  path: Assets/Art/Narrator-Neutral.png
+  artifactKey: Guid(100051cb0437e4bb79a971ba8c480b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Narrator-Neutral.png using Guid(100051cb0437e4bb79a971ba8c480b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430f370adbe12fd21ffa1e938c0e18c2') in 0.023327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.321572 seconds.
+  path: Assets/Art/Old-Ivy-Happy.png
+  artifactKey: Guid(0ac34a9de795d422ba147cf88052ba3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Old-Ivy-Happy.png using Guid(0ac34a9de795d422ba147cf88052ba3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8515c03342c33332beb1ce59ca55e4') in 0.224810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.853003 seconds.
+  path: Assets/Art/Screenshot_2023-01-07_at_17.56.25.png
+  artifactKey: Guid(425f48fa85bdd4c75b6c3cb173688f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Screenshot_2023-01-07_at_17.56.25.png using Guid(425f48fa85bdd4c75b6c3cb173688f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccde13192371209e93f4ed16c5b32bc2') in 0.029960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.915616 seconds.
+  path: Assets/Art/Ivy-Happy.png
+  artifactKey: Guid(425f48fa85bdd4c75b6c3cb173688f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Ivy-Happy.png using Guid(425f48fa85bdd4c75b6c3cb173688f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d6ff21b59658b89b138615f7705db1') in 0.027995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.967889 seconds.
+  path: Assets/Art/old-Ivy-Neutral.png
+  artifactKey: Guid(09f8a0c9155a04cd68fbd2dc6c2f6a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/old-Ivy-Neutral.png using Guid(09f8a0c9155a04cd68fbd2dc6c2f6a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976fff32a14e93aaeda2bff5960ecd6a') in 0.197093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.432622 seconds.
+  path: Assets/Art/old-Ivy-Angry.png
+  artifactKey: Guid(43076d143955e48e5a88a087909863a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/old-Ivy-Angry.png using Guid(43076d143955e48e5a88a087909863a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df24b6a7e6e3bfa6d84b6b0a538ee0d8') in 0.272097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.129183 seconds.
+  path: Assets/Art/Screenshot_2023-01-07_at_17.58.44.png
+  artifactKey: Guid(141e0bc3fb49f4cdf8ec8ae2226cc97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Screenshot_2023-01-07_at_17.58.44.png using Guid(141e0bc3fb49f4cdf8ec8ae2226cc97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b2e93f9163cdfca9d716c0d42cf3aa') in 0.044218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.071870 seconds.
+  path: Assets/Art/Ivi-Neutral.png
+  artifactKey: Guid(141e0bc3fb49f4cdf8ec8ae2226cc97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Ivi-Neutral.png using Guid(141e0bc3fb49f4cdf8ec8ae2226cc97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ad5ddf2abe0ca8c31150de27598b20') in 0.032622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.570709 seconds.
+  path: Assets/Art/Ivy-Neutral.png
+  artifactKey: Guid(141e0bc3fb49f4cdf8ec8ae2226cc97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Ivy-Neutral.png using Guid(141e0bc3fb49f4cdf8ec8ae2226cc97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eae4733891b2c01b48498424010c92f') in 0.029401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.547259 seconds.
+  path: Assets/Art/Screenshot_2023-01-07_at_18.00.58.png
+  artifactKey: Guid(b1a001db37a6249afad721dc2cac40a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Screenshot_2023-01-07_at_18.00.58.png using Guid(b1a001db37a6249afad721dc2cac40a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34616c2bb8979320071d778992069d55') in 0.034129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.149669 seconds.
+  path: Assets/Art/Ivy-Angry.png
+  artifactKey: Guid(b1a001db37a6249afad721dc2cac40a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Ivy-Angry.png using Guid(b1a001db37a6249afad721dc2cac40a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542bb3add5a55f947bd9eeece622bdc8') in 0.028012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.107912 seconds.
+  path: Assets/Art/old-Zen-Angry.png
+  artifactKey: Guid(329b174628e0a4e49a28f7d130e237be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/old-Zen-Angry.png using Guid(329b174628e0a4e49a28f7d130e237be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc976006eeb72197aa028b6f452d618f') in 0.121759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.318717 seconds.
+  path: Assets/Art/old-Zen-Happy.png
+  artifactKey: Guid(fc8a0fc04e8b04e37990f25a6159869d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/old-Zen-Happy.png using Guid(fc8a0fc04e8b04e37990f25a6159869d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cbaa64f53d86f2055a8f7c4da1573d') in 0.162225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.188085 seconds.
+  path: Assets/Art/old-Zen-Neutral.png
+  artifactKey: Guid(11f2d202ce6214879bed8c2d6a3ad47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/old-Zen-Neutral.png using Guid(11f2d202ce6214879bed8c2d6a3ad47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb676d3a4f946636996ea007cc3fa5d') in 0.139804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.006652 seconds.
+  path: Assets/Art/Screenshot_2023-01-07_at_18.11.35.png
+  artifactKey: Guid(ca1fdb70a42ae4a0aac402c3de8ab015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Screenshot_2023-01-07_at_18.11.35.png using Guid(ca1fdb70a42ae4a0aac402c3de8ab015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60b8b36c1f4cda10f29439d502fffed') in 0.038831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.391895 seconds.
+  path: Assets/Art/Zen-Angry.png
+  artifactKey: Guid(ca1fdb70a42ae4a0aac402c3de8ab015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zen-Angry.png using Guid(ca1fdb70a42ae4a0aac402c3de8ab015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df526e37027a2e50fe13c0c377f1001') in 0.027376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.137284 seconds.
+  path: Assets/Art/Screenshot_2023-01-07_at_18.12.20.png
+  artifactKey: Guid(0107f41fc05b44d599d3d8eecd97cf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Screenshot_2023-01-07_at_18.12.20.png using Guid(0107f41fc05b44d599d3d8eecd97cf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2366d895124cd6243b81af9cf19e05d6') in 0.040253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.070258 seconds.
+  path: Assets/Art/Zen-Neutral.png
+  artifactKey: Guid(0107f41fc05b44d599d3d8eecd97cf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zen-Neutral.png using Guid(0107f41fc05b44d599d3d8eecd97cf12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0294133cc167f3363b0e2238f7426f3') in 0.025943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.447429 seconds.
+  path: Assets/Art/Screenshot_2023-01-07_at_18.13.46.png
+  artifactKey: Guid(abfc6f4fc97824833940cad5f63a8e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Screenshot_2023-01-07_at_18.13.46.png using Guid(abfc6f4fc97824833940cad5f63a8e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9594c75f3f219a08c5f757cdfb81781d') in 0.039209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.599118 seconds.
+  path: Assets/Art/Zen-Happy.png
+  artifactKey: Guid(abfc6f4fc97824833940cad5f63a8e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Zen-Happy.png using Guid(abfc6f4fc97824833940cad5f63a8e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ea609c5e0a82a14f31e0c4d1b87719') in 0.026404 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003725 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mariavalerocampana/workspace/unity/Harvest of Love/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mariavalerocampana/workspace/unity/Harvest of Love/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.328 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1329ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (1012ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (353ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (178.2 KB). Loaded Objects now: 4726.
+Memory consumption went from 309.7 MB to 309.5 MB.
+Total: 4.570977 ms (FindLiveObjects: 0.359301 ms CreateObjectMapping: 0.268486 ms MarkObjects: 3.746553 ms  DeleteObjects: 0.195833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003578 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mariavalerocampana/workspace/unity/Harvest of Love/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mariavalerocampana/workspace/unity/Harvest of Love/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1302ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (1002ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (178.5 KB). Loaded Objects now: 4729.
+Memory consumption went from 309.9 MB to 309.8 MB.
+Total: 5.185528 ms (FindLiveObjects: 0.351163 ms CreateObjectMapping: 0.309067 ms MarkObjects: 4.294444 ms  DeleteObjects: 0.229634 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003748 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mariavalerocampana/workspace/unity/Harvest of Love/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mariavalerocampana/workspace/unity/Harvest of Love/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.298 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1299ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (1001ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (177.9 KB). Loaded Objects now: 4732.
+Memory consumption went from 310.2 MB to 310.0 MB.
+Total: 4.356769 ms (FindLiveObjects: 0.351320 ms CreateObjectMapping: 0.284635 ms MarkObjects: 3.542149 ms  DeleteObjects: 0.177499 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003875 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mariavalerocampana/workspace/unity/Harvest of Love/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mariavalerocampana/workspace/unity/Harvest of Love/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1314ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1010ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (178.1 KB). Loaded Objects now: 4735.
+Memory consumption went from 310.4 MB to 310.2 MB.
+Total: 5.258329 ms (FindLiveObjects: 0.456956 ms CreateObjectMapping: 0.472591 ms MarkObjects: 4.139868 ms  DeleteObjects: 0.187683 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
